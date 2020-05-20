@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                    <span class="method-stats">8 methods, 7 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,37 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC02_CreateNewForm">TC02_CreateNewForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC03_TestSearchAndOpenForm">TC03_TestSearchAndOpenForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC04_AddNewTextQuestionToFormLayout(Text, Question 2, Help text 2, 15, 5, true, false, true, Invalid)">TC04_AddNewTextQuestionToFormLayout(Text, Question 2, Help text 2, 15, 5, true, false, true, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)">TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC05_TestViewForm">TC05_TestViewForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC06_TestSubmitForm">TC06_TestSubmitForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC07_TestResponseSubmitted">TC07_TestResponseSubmitted</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -119,36 +149,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC01_TestLogin">TC01_TestLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC02_CreateNewForm">TC02_CreateNewForm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC03_TestSearchAndOpenForm">TC03_TestSearchAndOpenForm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)">TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC05_TestViewForm">TC05_TestViewForm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC06_TestSubmitForm">TC06_TestSubmitForm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Forms_Package.Forms_Test" hash-for-method="TC07_TestResponseSubmitted">TC07_TestResponseSubmitted</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -171,14 +171,183 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="TC02_CreateNewForm">
+                  </a> <!-- TC02_CreateNewForm -->
+                  <span class="method-name">TC02_CreateNewForm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class=&apos;iconButtonSection float&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAITDEV13&apos;, ip: &apos;164.67.69.237&apos;, os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Forms_Package.Forms_Test.TC02_CreateNewForm(Forms_Test.java:68)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_TestSearchAndOpenForm">
+                  </a> <!-- TC03_TestSearchAndOpenForm -->
+                  <span class="method-name">TC03_TestSearchAndOpenForm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAITDEV13&apos;, ip: &apos;164.67.69.237&apos;, os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\spatel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d65f674436072961debb423e67480b8
+*** Element info: {Using=xpath, value=//iwe-input[@id=&apos;searchTerm&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Forms_Package.Forms_Test.TC03_TestSearchAndOpenForm(Forms_Test.java:98)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="TC04_AddNewTextQuestionToFormLayout(Text, Question 2, Help text 2, 15, 5, true, false, true, Invalid)">
                   </a> <!-- TC04_AddNewTextQuestionToFormLayout(Text, Question 2, Help text 2, 15, 5, true, false, true, Invalid) -->
                   <span class="method-name">TC04_AddNewTextQuestionToFormLayout</span>
                   <span class="parameters">(Text, Question 2, Help text 2, 15, 5, true, false, true, Invalid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: Failed: Added New Question Type Text With invalid Data  expected [true] but found [false]
-	at Forms_Package.Forms_Test.TC04_AddNewTextQuestionToFormLayout(Forms_Test.java:180)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAITDEV13&apos;, ip: &apos;164.67.69.237&apos;, os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\spatel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d65f674436072961debb423e67480b8
+*** Element info: {Using=xpath, value=//i[@class=&apos;fa-plus fa-2x&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Forms_Package.Forms_Test.TC04_AddNewTextQuestionToFormLayout(Forms_Test.java:122)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 30 stack frames
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)">
+                  </a> <!-- TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid) -->
+                  <span class="method-name">TC04_AddNewTextQuestionToFormLayout</span>
+                  <span class="parameters">(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAITDEV13&apos;, ip: &apos;164.67.69.237&apos;, os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\spatel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d65f674436072961debb423e67480b8
+*** Element info: {Using=xpath, value=//i[@class=&apos;fa-plus fa-2x&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Forms_Package.Forms_Test.TC04_AddNewTextQuestionToFormLayout(Forms_Test.java:122)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_TestViewForm">
+                  </a> <!-- TC05_TestViewForm -->
+                  <span class="method-name">TC05_TestViewForm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAITDEV13&apos;, ip: &apos;164.67.69.237&apos;, os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\spatel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d65f674436072961debb423e67480b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:472)
+	at Forms_Package.Forms_Test.TC05_TestViewForm(Forms_Test.java:196)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06_TestSubmitForm">
+                  </a> <!-- TC06_TestSubmitForm -->
+                  <span class="method-name">TC06_TestSubmitForm</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAITDEV13&apos;, ip: &apos;164.67.69.237&apos;, os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\spatel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d65f674436072961debb423e67480b8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:460)
+	at Forms_Package.Forms_Test.TC06_TestSubmitForm(Forms_Test.java:209)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_TestResponseSubmitted">
+                  </a> <!-- TC07_TestResponseSubmitted -->
+                  <span class="method-name">TC07_TestResponseSubmitted</span>
+                  <div class="stack-trace">java.lang.NullPointerException: null value in entry: handle=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:903)
+	at Forms_Package.Forms_Test.TC07_TestResponseSubmitted(Forms_Test.java:228)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -195,49 +364,6 @@
                   <a name="TC01_TestLogin">
                   </a> <!-- TC01_TestLogin -->
                   <span class="method-name">TC01_TestLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC02_CreateNewForm">
-                  </a> <!-- TC02_CreateNewForm -->
-                  <span class="method-name">TC02_CreateNewForm</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC03_TestSearchAndOpenForm">
-                  </a> <!-- TC03_TestSearchAndOpenForm -->
-                  <span class="method-name">TC03_TestSearchAndOpenForm</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)">
-                  </a> <!-- TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid) -->
-                  <span class="method-name">TC04_AddNewTextQuestionToFormLayout</span>
-                  <span class="parameters">(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC05_TestViewForm">
-                  </a> <!-- TC05_TestViewForm -->
-                  <span class="method-name">TC05_TestViewForm</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC06_TestSubmitForm">
-                  </a> <!-- TC06_TestSubmitForm -->
-                  <span class="method-name">TC06_TestSubmitForm</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC07_TestResponseSubmitted">
-                  </a> <!-- TC07_TestResponseSubmitted -->
-                  <span class="method-name">TC07_TestResponseSubmitted</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -296,42 +422,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC02_CreateNewForm')
+data.setCell(0, 1, 'TC04_AddNewTextQuestionToFormLayout')
 data.setCell(0, 2, 'Forms_Package.Forms_Test')
-data.setCell(0, 3, 4292);
+data.setCell(0, 3, 2011);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC04_AddNewTextQuestionToFormLayout')
+data.setCell(1, 1, 'TC06_TestSubmitForm')
 data.setCell(1, 2, 'Forms_Package.Forms_Test')
-data.setCell(1, 3, 2607);
+data.setCell(1, 3, 2008);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'TC04_AddNewTextQuestionToFormLayout')
 data.setCell(2, 2, 'Forms_Package.Forms_Test')
-data.setCell(2, 3, 2473);
+data.setCell(2, 3, 2007);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC06_TestSubmitForm')
+data.setCell(3, 1, 'TC02_CreateNewForm')
 data.setCell(3, 2, 'Forms_Package.Forms_Test')
-data.setCell(3, 3, 2294);
+data.setCell(3, 3, 1978);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC03_TestSearchAndOpenForm')
+data.setCell(4, 1, 'TC01_TestLogin')
 data.setCell(4, 2, 'Forms_Package.Forms_Test')
-data.setCell(4, 3, 2280);
+data.setCell(4, 3, 1176);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC07_TestResponseSubmitted')
+data.setCell(5, 1, 'TC03_TestSearchAndOpenForm')
 data.setCell(5, 2, 'Forms_Package.Forms_Test')
-data.setCell(5, 3, 1682);
+data.setCell(5, 3, 27);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'TC05_TestViewForm')
 data.setCell(6, 2, 'Forms_Package.Forms_Test')
-data.setCell(6, 3, 1241);
+data.setCell(6, 3, 5);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC01_TestLogin')
+data.setCell(7, 1, 'TC07_TestResponseSubmitted')
 data.setCell(7, 2, 'Forms_Package.Forms_Test')
-data.setCell(7, 3, 1010);
+data.setCell(7, 3, 4);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -364,45 +490,57 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">setUpReports</span>
-                <span class="method-start">5484 ms</span>
+                <span class="method-start">5555 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">TC01_TestLogin</span>
-                <span class="method-start">5709 ms</span>
+                <span class="method-start">5771 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC02_CreateNewForm</span>
-                <span class="method-start">6729 ms</span>
+                <span class="method-start">6953 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC03_TestSearchAndOpenForm</span>
-                <span class="method-start">11023 ms</span>
+                <span class="method-start">8936 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC04_AddNewTextQuestionToFormLayout(Text, Question 1, Help text 1, 2, 20, false, true, true, Valid)</span>
-                <span class="method-start">13309 ms</span>
+                <span class="method-start">8973 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC04_AddNewTextQuestionToFormLayout(Text, Question 2, Help text 2, 15, 5, true, false, true, Invalid)</span>
-                <span class="method-start">15919 ms</span>
+                <span class="method-start">10987 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC05_TestViewForm</span>
-                <span class="method-start">18398 ms</span>
+                <span class="method-start">12997 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC06_TestSubmitForm</span>
-                <span class="method-start">19642 ms</span>
+                <span class="method-start">13006 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC07_TestResponseSubmitted</span>
-                <span class="method-start">21938 ms</span>
+                <span class="method-start">15018 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownDriver</span>
-                <span class="method-start">23623 ms</span>
+                <span class="method-start">15025 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

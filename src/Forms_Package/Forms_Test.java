@@ -49,7 +49,7 @@ public class Forms_Test {
 
 	@Test(priority = 1)
 	public static void TC01_TestLogin() throws InterruptedException {
-		logger = reports.startTest("Test Login");
+		//logger = reports.startTest("Test Login");
 		driver.findElement(By.id("logonId")).sendKeys("pdugar");
 		logger.log(LogStatus.INFO, "Entered User Logon Id");
 		driver.findElement(By.id("passPhrase")).sendKeys("lettuce tall soft tasty");

@@ -5,8 +5,13 @@
     <classes>
       <class name="Forms_Package.Forms_Test">
         <methods>
+          <include name="TC06_TestSubmitForm"/>
           <include name="setUpReports"/>
-          <include name="TC04_AddNewTextQuestionToFormLayout" invocation-numbers="1"/>
+          <include name="TC07_TestResponseSubmitted"/>
+          <include name="TC02_CreateNewForm"/>
+          <include name="TC03_TestSearchAndOpenForm"/>
+          <include name="TC04_AddNewTextQuestionToFormLayout" invocation-numbers="0 1"/>
+          <include name="TC05_TestViewForm"/>
           <include name="setUpDriver"/>
           <include name="tearDownDriver"/>
         </methods>
